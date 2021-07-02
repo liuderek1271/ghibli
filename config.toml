@@ -1,0 +1,63 @@
+baseurl      = "ghiblimovie"
+title        = "My Site"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+paginate     = 10
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+
+[params]
+
+
+  enableThemeToggle = true
+  dateFormat = "2006-01-02" # default
+
+  # Post page settings
+  show_updated = false # default
+
+  
+  # Subtitle for home
+  homeSubtitle = "1988 Japanese animated fantasy film"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+[params.comments]
+    enabled = true # default
+    engine = "disqus" # more supported engines will be added.
+[languages]
+  [languages.en]
+    title = "My Neighbor Totoro"
+    subtitle = "A simple theme for Hugo"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Home"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Link"
+    url        = "https://www2.kickassanime.ro/anime/my-neighbor-totoro-856598/episode-01-718838"
+
+
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 1
+
+
+ 
